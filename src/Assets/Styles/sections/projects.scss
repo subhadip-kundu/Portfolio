@@ -1,0 +1,146 @@
+.projects-container {
+	display: grid;
+	grid-gap: 2em;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	width: 100%;
+	max-width: 1200px;
+}
+
+.project-card {
+	display: flex;
+	flex-direction: column;
+	background-color: $gray-2;
+
+	&:hover {
+		outline: 1px solid $theme-1;
+		box-shadow: 0 0 10px 1px $theme-1;
+	}
+}
+
+.project-card-photo {
+	background-color: $theme-3;
+
+	img {
+		width: 100%;
+		height: 100%;
+	}
+}
+
+.project-card-data {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 1.3em;
+	height: 100%;
+
+	& > a {
+		text-decoration: none;
+
+		p:nth-of-type(1) {
+			font-weight: bold;
+			font-size: 1.3em;
+			color: $white;
+		}
+
+		p:nth-of-type(2) {
+			margin: 1em 0 0 0;
+			color: $gray-9;
+		}
+	}
+}
+
+.project-tools-and-resources {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.project-card-tools {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+	li {
+		margin-top: 1em;
+		margin-right: 1.3em;
+		font-size: 0.9em;
+		color: $gray-5;
+	}
+}
+
+.project-card-resources {
+	margin-top: 1em;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+	a {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		opacity: 0.7;
+		color: $white;
+
+		&:hover {
+			opacity: 1;
+		}
+
+		img {
+			width: 30px;
+		}
+
+		&:first-of-type {
+			margin-right: 0.5em;
+		}
+	}
+}
+
+.projects-container > a {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 3px dashed $gray-5;
+	background-color: $gray-2;
+	opacity: 0.7;
+	text-decoration: none;
+	color: $gray-A;
+
+	&:hover {
+		opacity: 1;
+	}
+}
+
+@media (max-width: 1300px) {
+	.projects-container {
+		grid-gap: 1.5em;
+	}
+}
+
+@media (max-width: 1300px) {
+	.projects-container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+	}
+}
+
+@media (max-width: 800px) {
+	.projects-container {
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(4, 1fr);
+	}
+}
+
+@media (max-width: 340px) {
+	.projects-container {
+		justify-items: center;
+	}
+
+	.project-card,
+	.projects-container > a {
+		width: 260px;
+	}
+}
