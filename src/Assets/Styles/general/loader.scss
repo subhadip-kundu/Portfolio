@@ -1,0 +1,27 @@
+.loading-container {
+	background-color: $gray-1;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	img {
+		width: 50px;
+		animation: loading 1s ease-out infinite;
+	}
+}
+
+@keyframes loading {
+	25% {
+		transform: rotate(30deg);
+	}
+
+	50% {
+		transform: rotate(180deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}

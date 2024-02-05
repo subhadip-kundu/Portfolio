@@ -1,0 +1,70 @@
+/* TYPOGRAPHY */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+
+body {
+	font-family: "Mulish", sans-serif;
+	background-color: $gray-1;
+}
+
+/* RESET */
+
+body,
+h2,
+p,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+*,
+*::before,
+*::after {
+	outline: none;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+/* SPECIAL EFFECTS */
+
+/* Scroll */
+
+* {
+	&::-webkit-scrollbar-track {
+		background-color: $gray-1;
+	}
+
+	&::-webkit-scrollbar {
+		width: 10px;
+		@media (max-width: 1000px) {
+			width: 1px;
+		}
+	}
+
+	&::-webkit-scrollbar-thumb {
+		background-color: $gray-5;
+	}
+}
+
+/* Selected text */
+
+h1::-moz-selection,
+h2::-moz-selection,
+p::-moz-selection,
+a::-moz-selection,
+li::-moz-selection,
+img::-moz-selection {
+	background-color: rgba($theme-4, 0.5);
+}
+
+h1::selection,
+h2::selection,
+p::selection,
+a::selection,
+li::selection,
+img::selection {
+	background-color: rgba($theme-4, 0.5);
+}

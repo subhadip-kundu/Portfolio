@@ -1,0 +1,52 @@
+/* Main container */
+
+#root {
+	background-color: $gray-1;
+}
+
+.sections {
+	width: 100%;
+	padding-left: 150px;
+}
+
+/* Sections */
+
+.section-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 4em 5em 10em 5em;
+}
+
+/* Title */
+
+.section-title {
+	color: $white;
+	font-weight: bold;
+	font-size: 3em;
+	border-bottom: 3px solid $theme-3;
+	margin: 0 0 1em 0;
+}
+
+@media (max-width: 1000px) {
+	.sections {
+		padding: 0;
+	}
+
+	.section-title {
+		font-size: 2.5em;
+	}
+}
+
+@media (max-width: 500px) {
+	.section-container {
+		padding: 4em 3em 10em 3em;
+	}
+}
+
+@media (max-width: 400px) {
+	.section-container {
+		padding: 4em 1em 10em 1em;
+	}
+}
