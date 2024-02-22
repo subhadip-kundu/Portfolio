@@ -1,0 +1,15 @@
+@import "general/variables.css";
+@import "general/reset.css";
+@import "general/section.css";
+@import "general/button.css";
+@import "general/loader.css";
+
+@import "sections/mobile-header.css";
+@import "sections/header.css";
+@import "sections/home.css";
+@import "sections/about.css";
+@import "sections/skills.css";
+@import "sections/experiance.css";
+@import "sections/projects.css";
+@import "sections/contact.css";
+@import "sections/footer.css";

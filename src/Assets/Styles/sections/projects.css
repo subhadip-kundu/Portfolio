@@ -10,21 +10,21 @@
 .project-card {
 	display: flex;
 	flex-direction: column;
-	background-color: $gray-2;
+	background-color: var(--gray-2);
+}
 
-	&:hover {
-		outline: 1px solid $theme-1;
-		box-shadow: 0 0 10px 1px $theme-1;
-	}
+.project-card:hover {
+	outline: 1px solid var(--theme-1);
+	box-shadow: 0 0 10px 1px var(--theme-1);
 }
 
 .project-card-photo {
-	background-color: $theme-3;
+	background-color: var(--theme-3);
+}
 
-	img {
-		width: 100%;
-		height: 100%;
-	}
+.project-card-photo img {
+	width: 100%;
+	height: 100%;
 }
 
 .project-card-data {
@@ -33,21 +33,21 @@
 	justify-content: space-between;
 	padding: 1.3em;
 	height: 100%;
+}
 
-	& > a {
-		text-decoration: none;
+.project-card-data a {
+	text-decoration: none;
+}
 
-		p:nth-of-type(1) {
-			font-weight: bold;
-			font-size: 1.3em;
-			color: $white;
-		}
+.project-card-data p:nth-of-type(1) {
+	font-weight: bold;
+	font-size: 1.3em;
+	color: var(--white);
+}
 
-		p:nth-of-type(2) {
-			margin: 1em 0 0 0;
-			color: $gray-9;
-		}
-	}
+.project-card-data p:nth-of-type(2) {
+	margin: 1em 0 0 0;
+	color: var(--gray-9);
 }
 
 .project-tools-and-resources {
@@ -62,13 +62,13 @@
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
+}
 
-	li {
-		margin-top: 1em;
-		margin-right: 1.3em;
-		font-size: 0.9em;
-		color: $gray-5;
-	}
+.project-card-tools li {
+	margin-top: 1em;
+	margin-right: 1.3em;
+	font-size: 0.9em;
+	color: var(--gray-5);
 }
 
 .project-card-resources {
@@ -76,26 +76,26 @@
 	display: flex;
 	align-items: center;
 	justify-content: flex-end;
+}
 
-	a {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		opacity: 0.7;
-		color: $white;
+.project-card-resources a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.7;
+	color: var(--white);
+}
 
-		&:hover {
-			opacity: 1;
-		}
+.project-card-resources a:hover {
+	opacity: 1;
+}
 
-		img {
-			width: 30px;
-		}
+.project-card-resources a img {
+	width: 30px;
+}
 
-		&:first-of-type {
-			margin-right: 0.5em;
-		}
-	}
+.project-card-resources a:first-of-type {
+	margin-right: 0.5em;
 }
 
 .projects-container > a {
@@ -103,15 +103,15 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	border: 3px dashed $gray-5;
-	background-color: $gray-2;
+	border: 3px dashed var(--gray-5);
+	background-color: var(--gray-2);
 	opacity: 0.7;
 	text-decoration: none;
-	color: $gray-A;
+	color: var(--gray-A);
+}
 
-	&:hover {
-		opacity: 1;
-	}
+.projects-container > a:hover {
+	opacity: 1;
 }
 
 @media (max-width: 1300px) {

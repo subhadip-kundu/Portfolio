@@ -9,7 +9,6 @@
 }
 
 .job-item {
-	// margin-bottom: 3em;
 	width: 100%;
 	display: grid;
 	grid-gap: 25px 20px;
@@ -24,29 +23,29 @@
 	margin-top: 4em;
 	height: 100%;
 	border: none;
-	border-left: 4px dashed $gray-3;
+	border-left: 4px dashed var(--gray-3);
 	position: absolute;
 	top: -3em;
 	left: 50%;
 	margin-left: -2px;
+}
 
-	&::after {
-		content: "";
-		width: 20px;
-		height: 20px;
-		border-radius: 50%;
-		background-color: $gray-2;
-		position: absolute;
-		left: -12px;
-		bottom: 0;
-	}
+.time-line::after {
+	content: "";
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+	background-color: var(--gray-2);
+	position: absolute;
+	left: -12px;
+	bottom: 0;
 }
 
 .job-circle {
 	width: 30px;
 	height: 30px;
 	border-radius: 50%;
-	background-color: $gray-2;
+	background-color: var(--gray-2);
 	grid-area: circle;
 	z-index: 900;
 	margin-top: 7px;
@@ -54,17 +53,17 @@
 
 .job-item:first-of-type .job-circle {
 	background-color: transparent;
-	outline: 2px solid $theme-1;
+	outline: 2px solid var(--theme-1);
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
 
-	& > div {
-		width: 70%;
-		height: 70%;
-		border-radius: 50%;
-		background-color: $theme-1;
-	}
+.job-item:first-of-type .job-circle > div {
+	width: 70%;
+	height: 70%;
+	border-radius: 50%;
+	background-color: var(--theme-1);
 }
 
 .job-company,
@@ -77,20 +76,20 @@
 	text-decoration: none;
 	font-size: 20px;
 	font-weight: bold;
-	color: $gray-D;
+	color: var(--gray-D);
 	grid-area: company;
 }
 
 .job-date {
 	font-size: 16px;
-	color: $gray-5;
+	color: var(--gray-5);
 	grid-area: date;
 }
 
 .job-position {
 	font-size: 20px;
 	font-weight: bold;
-	color: $theme-4;
+	color: var(--theme-4);
 	padding-top: 10px;
 	margin-bottom: 20px;
 	grid-area: position;
@@ -100,12 +99,12 @@
 	list-style: circle;
 	padding-left: 1.5em;
 	grid-area: tasks;
+}
 
-	li {
-		font-size: 16px;
-		color: $gray-A;
-		margin-bottom: 10px;
-	}
+.job-tasks li {
+	font-size: 16px;
+	color: var(--gray-A);
+	margin-bottom: 10px;
 }
 
 @media (max-width: 1020px) {
@@ -151,12 +150,12 @@
 
 	.time-line {
 		left: 16px;
+	}
 
-		&::after {
-			width: 15px;
-			height: 15px;
-			left: -9px;
-		}
+	.time-line::after {
+		width: 15px;
+		height: 15px;
+		left: -9px;
 	}
 
 	.job-item {
@@ -189,12 +188,6 @@
 	.job-company,
 	.job-date {
 		text-align: center;
-	}
-
-	.job-position,
-	.job-company,
-	.job-date,
-	.job-tasks {
 		margin-bottom: 5px;
 	}
 

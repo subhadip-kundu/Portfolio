@@ -1,5 +1,5 @@
 .mobile-header {
-	background-color: rgba($gray-1, 0.7);
+	background-color: rgba(var(--gray-1), 0.7);
 	display: none;
 	align-items: center;
 	justify-content: space-between;
@@ -10,10 +10,10 @@
 	height: 4em;
 	z-index: 2000;
 	padding: 0 1.5em;
+}
 
-	img {
-		cursor: pointer;
-	}
+.mobile-header img {
+	cursor: pointer;
 }
 
 .logo {

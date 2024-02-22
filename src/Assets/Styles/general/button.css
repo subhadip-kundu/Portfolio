@@ -1,0 +1,72 @@
+.solid-button {
+	display: inline-block;
+	padding: 0.7em;
+	font-size: 1.1em;
+	cursor: pointer;
+	width: 170px;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid var(--theme-3);
+	background-color: var(--theme-3);
+	color: var(--white);
+}
+
+.solid-button:hover {
+	border-color: var(--theme-4);
+	background-color: var(--theme-4);
+}
+
+@media (max-width: 1000px) {
+	.solid-button {
+		font-size: 0.9em;
+		width: 150px;
+	}
+}
+
+.ghost-button {
+	display: inline-block;
+	padding: 0.7em;
+	font-size: 1.1em;
+	cursor: pointer;
+	width: 170px;
+	text-align: center;
+	text-decoration: none;
+	border: 2px solid var(--gray-C);
+	background-color: transparent;
+	color: var(--gray-C);
+}
+
+.ghost-button:hover {
+	background-color: rgba(var(--gray-C), 0.1);
+}
+
+@media (max-width: 1000px) {
+	.ghost-button {
+		font-size: 0.9em;
+		width: 150px;
+	}
+}
+
+.empty-button {
+	display: inline-block;
+	padding: 0.7em;
+	font-size: 1.1em;
+	cursor: pointer;
+	width: 170px;
+	text-align: center;
+	text-decoration: underline;
+	border: 2px solid transparent;
+	background-color: transparent;
+	color: var(--white);
+}
+
+.empty-button:hover {
+	text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+	.empty-button {
+		font-size: 0.9em;
+		width: 150px;
+	}
+}

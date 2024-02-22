@@ -1,15 +1,15 @@
 .loading-container {
-	background-color: $gray-1;
+	background-color: var(--gray-1);
 	width: 100vw;
 	height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
 
-	img {
-		width: 50px;
-		animation: loading 1s ease-out infinite;
-	}
+.loading-container img {
+	width: 50px;
+	animation: loading 1s ease-out infinite;
 }
 
 @keyframes loading {

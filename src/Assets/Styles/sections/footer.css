@@ -4,15 +4,15 @@ footer {
 	align-items: center;
 	padding: 1em 0;
 	font-family: monospace;
-	color: $white;
+	color: var(--white);
 	opacity: 0.3;
+}
 
-	a {
-		color: $white;
-		text-decoration: none;
+footer a {
+	color: var(--white);
+	text-decoration: none;
+}
 
-		&:hover {
-			text-decoration: underline;
-		}
-	}
+footer a:hover {
+	text-decoration: underline;
 }

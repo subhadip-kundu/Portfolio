@@ -4,7 +4,7 @@
 
 body {
 	font-family: "Mulish", sans-serif;
-	background-color: $gray-1;
+	background-color: var(--gray-1);
 }
 
 /* RESET */
@@ -32,21 +32,22 @@ ul {
 
 /* Scroll */
 
-* {
-	&::-webkit-scrollbar-track {
-		background-color: $gray-1;
-	}
+*::-webkit-scrollbar-track {
+	background-color: var(--gray-1);
+}
 
-	&::-webkit-scrollbar {
-		width: 10px;
-		@media (max-width: 1000px) {
-			width: 1px;
-		}
-	}
+*::-webkit-scrollbar {
+	width: 10px;
+}
 
-	&::-webkit-scrollbar-thumb {
-		background-color: $gray-5;
+@media (max-width: 1000px) {
+	*::-webkit-scrollbar {
+		width: 1px;
 	}
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: var(--gray-5);
 }
 
 /* Selected text */
@@ -57,7 +58,7 @@ p::-moz-selection,
 a::-moz-selection,
 li::-moz-selection,
 img::-moz-selection {
-	background-color: rgba($theme-4, 0.5);
+	background-color: rgba(var(--theme-4), 0.5);
 }
 
 h1::selection,
@@ -66,5 +67,5 @@ p::selection,
 a::selection,
 li::selection,
 img::selection {
-	background-color: rgba($theme-4, 0.5);
+	background-color: rgba(var(--theme-4), 0.5);
 }

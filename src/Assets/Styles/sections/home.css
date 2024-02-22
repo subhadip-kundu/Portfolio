@@ -8,11 +8,11 @@
 	position: relative;
 	padding: 0 5em;
 	margin: 0 auto;
+}
 
-	img {
-		width: 220px;
-		opacity: 0.5;
-	}
+.home-section img {
+	width: 220px;
+	opacity: 0.5;
 }
 
 .home-left {
@@ -29,20 +29,18 @@
 .home-hi h1 {
 	font-weight: bold;
 	margin: 0.1em 0 0.3em 0;
-	color: $white;
+	color: var(--white);
 	font-size: 4.5em;
 }
 
-.home-hi p {
-	&:nth-of-type(1) {
-		color: $gray-7;
-		font-size: 2em;
-	}
+.home-hi p:nth-of-type(1) {
+	color: var(--gray-7);
+	font-size: 2em;
+}
 
-	&:nth-of-type(2) {
-		color: $gray-8;
-		font-size: 1.8em;
-	}
+.home-hi p:nth-of-type(2) {
+	color: var(--gray-8);
+	font-size: 1.8em;
 }
 
 .scroll-down {
@@ -52,10 +50,10 @@
 	justify-content: space-between;
 	align-items: center;
 	animation: scroll-animation 3s ease-in-out infinite;
+}
 
-	img {
-		width: 50px;
-	}
+.scroll-down img {
+	width: 50px;
 }
 
 @keyframes scroll-animation {
@@ -101,14 +99,12 @@
 		font-size: 10vw;
 	}
 
-	.home-hi p {
-		&:nth-of-type(1) {
-			font-size: 5vw;
-		}
+	.home-hi p:nth-of-type(1) {
+		font-size: 5vw;
+	}
 
-		&:nth-of-type(2) {
-			font-size: 4vw;
-		}
+	.home-hi p:nth-of-type(2) {
+		font-size: 4vw;
 	}
 
 	.scroll-down img {
@@ -117,14 +113,12 @@
 }
 
 @media (max-width: 500px) {
-	.home-hi p {
-		&:nth-of-type(1) {
-			font-size: 7vw;
-		}
+	.home-hi p:nth-of-type(1) {
+		font-size: 7vw;
+	}
 
-		&:nth-of-type(2) {
-			font-size: 6vw;
-		}
+	.home-hi p:nth-of-type(2) {
+		font-size: 6vw;
 	}
 
 	.home-section {

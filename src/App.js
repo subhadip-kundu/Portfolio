@@ -1,5 +1,5 @@
 import React, {useState, useRef} from "react";
-import "./Assets/Styles/main.scss";
+import "./Assets/Styles/main.css";
 
 // Sections
 import Header from "./Layouts/Header";
