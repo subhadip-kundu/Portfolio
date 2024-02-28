@@ -6,7 +6,7 @@ Welcome to my portfolio repository! This site showcases my skills and projects. 
 ## Technologies Used
 
 - **React**
-- **SCSS**
+- **CSS**
 - **JavaScript**
 
 ## Project Structure
