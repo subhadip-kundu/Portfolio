@@ -1,49 +1,45 @@
+# Subhadip Kundu
 
-# SUBHADIP KUNDU's Portfolio
+- **Date of Birth:** July 11, 2002
+- **Email:** subhadipkundu106@gmail.com
+- **Education:**
+  - Bachelor of Technology, Major in Computer Science and Technology
+    - Mallabhum Institute of Technology, Bishnupur, WB
+    - Expected Graduation: July 2024
+    - Cumulative CGPA: 8.5/10
+    - Relevant Coursework: Data structures, Operating Systems, Object Oriented Programming, Computer Network
+  - Higher Secondary Education
+    - Rampur High School, Bankura, WB
+    - Science Stream, 74%, March 2020
 
-Welcome to my portfolio repository! This site showcases my skills and projects. Feel free to explore and get in touch.
+- **Projects:**
+  1. **Advanced Todo App**
+     - **Tech Stack:** React, Bootstrap, Node, MongoDB
+     - Developed a responsive full-stack Todo List app with MERN, ensuring seamless task management.
+     - Integrated bcrypt for secure user authentication and utilized RESTful APIs with React.js for efficient CRUD operations.
 
-## Technologies Used
+  2. **Pokedex**
+     - **Tech Stack:** React, CSS, PokeApi
+     - Developed a responsive web application (Pokedex) that provides comprehensive information on Pokémon species.
+     - Implemented search functionality and interactive data display features to enhance user experience.
 
-- **React**
-- **CSS**
-- **JavaScript**
+  3. **Weather App**
+     - **Tech Stack:** HTML, CSS, JS, Ajax
+     - Developed a responsive weather web app using OpenWeatherMap APIs for real-time location-based weather data with unit conversion (Celsius/Fahrenheit).
+     - Implemented interactive features search and visualization for an enhanced user experience.
 
-## Project Structure
+- **Skills:**
+  - HTML: Advanced
+  - CSS: Advanced
+  - Tailwind CSS: Proficient
+  - JavaScript: Proficient
+  - React: Proficient
+  - Redux: Beginner
+  - Node.js: Intermediate
+  - Express.js: Intermediate
+  - MongoDB: Proficient
+  - MySQL: Intermediate
 
-- `/src`: React components and logic
-- `/styles`: SCSS stylesheets
-- `/public`: Static assets (images, etc.)
+- **Certifications:**
+  - Full Stack Web Development Certificate from pwskills, mastering the MERN stack over an 8-month course.
 
-## Getting Started
-
-1. Clone the repository
-   ```bash
-   git clone https://github.com/subhadip-kundu/Portfolio
-   ```
-
-2. Install dependencies
-   ```bash
-   npm install
-   ```
-
-3. Run the development server
-   ```bash
-   npm start
-   ```
-
-4. Open your browser and visit [http://localhost:3000](http://localhost:3000)
-
-## Deployment
-
-The site is live at [Portfolio] (http://subhadipkundu.netlify.app)
-
-## About Me
-
-I'm S, a passionate web developer with a keen interest in full stack development. With a solid background in computer science and engineering, I strive to create innovative and impactful solutions.
-
-## Contact
-
-Feel free to connect with me: subhadipkundu106@gmail.com
-
-Happy coding!
