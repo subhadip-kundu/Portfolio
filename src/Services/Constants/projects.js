@@ -2,7 +2,7 @@ import ToDo from "../../Assets/Images/projects/ToDo.png";
 import calculator from "../../Assets/Images/projects/calculator.png";
 import passwordGenerator from "../../Assets/Images/projects/passwordGenerator.png";
 import pokedex from "../../Assets/Images/projects/pokedex.png";
-import weather from "../../Assets/Images/projects/Weather.jpg.png";
+import weather from "../../Assets/Images/projects/Weather.jpg";
 
 const projects = [
   {
