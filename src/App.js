@@ -21,6 +21,7 @@ import englishJSON from "./Services/Constants/english";
 
 // Loader
 import Loader from "./Components/Loader";
+import CursorTracker from "./CursorTracker/Tracker";
 
 function App() {
 	// Set content language
@@ -93,6 +94,7 @@ function App() {
 						<img src={favicon} alt='Logo' className='logo' onClick={() => goTo("home")}></img>
 						<img src={showBurger ? burgerIcon : closeIcon} alt='Menu' className='burger-close' onClick={showHideMenu}></img>
 					</div>
+					<CursorTracker/>
 				</>
 			) : (
 				<></>
