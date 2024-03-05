@@ -10,7 +10,7 @@ const projects = [
     descriptionEN:
       "Todo List app with MERN stack for efficient task management. Features user authentication, secure access, and CRUD operations for seamless task handling.",
     tools: ["React", "Bootstrap", "Node", "Mongo"],
-    website: "https://advanced-to-do-host.vercel.app/",
+    website: "https://todo-app-advanced.netlify.app/",
     github: "https://github.com/subhadip-kundu/ToDo-Advanced",
     img: ToDo,
   },
