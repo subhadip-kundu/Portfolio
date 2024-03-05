@@ -18,8 +18,8 @@ const projects = [
     name: "Pokédex",
     descriptionEN:
       "JavaScript password generator creates secure, random passwords with letters, numbers, and characters for robust online authentication.",
-    tools: ["HTML", "CSS", "JavaScript","Ajax"],
-    website: "https://real-time-weather-usign-ajax.netlify.app/",
+    tools: ["HTML", "CSS", "JavaScript", "Ajax"],
+    website: "https://pokedex-by-subh.netlify.app/",
     github: "https://github.com/subhadip-kundu/Weather-application-using-api-and-ajax",
     img: pokedex,
   },
@@ -28,7 +28,7 @@ const projects = [
     descriptionEN:
       "JavaScript password generator creates secure, random passwords with letters, numbers, and characters for robust online authentication.",
     tools: ["React", "JavaScript", "PokéAPI"],
-    website: "https://pokedex-by-subh.netlify.app/",
+    website: "https://real-time-weather-usign-ajax.netlify.app/",
     github: "https://github.com/subhadip-kundu/Pokedex",
     img: weather,
   },
