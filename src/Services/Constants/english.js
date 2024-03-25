@@ -1,4 +1,4 @@
-import cvEnglish from "./SubhadipKundu_Resume.pdf";
+import cvEnglish from "../../Assets/Resume.pdf";
 
 const englishJSON = {
 	header: {
