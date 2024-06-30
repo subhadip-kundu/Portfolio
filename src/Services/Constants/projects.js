@@ -6,6 +6,15 @@ import weather from "../../Assets/Images/projects/Weather.jpg";
 
 const projects = [
   {
+    name: "CropCompass",
+    descriptionEN:
+      "A platform for selling crop from direct seller to buyer in bankura district and it also provide support on all kind of crop , nuts , sugar and many more. ",
+    tools: ["React", "Tailwind", "NodeJs", "MongoDB"],
+    website: "https://cropcompass.netlify.app/",
+    github: "https://github.com/subhadip-kundu/CropCompass-farmersOwnEcommerce",
+    img: ToDo,
+  },
+  {
     name: "ToDo Application",
     descriptionEN:
       "Todo List app with MERN stack for efficient task management. Features user authentication, secure access, and CRUD operations for seamless task handling.",
