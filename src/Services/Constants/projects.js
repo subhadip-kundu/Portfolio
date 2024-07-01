@@ -3,6 +3,7 @@ import calculator from "../../Assets/Images/projects/calculator.png";
 import passwordGenerator from "../../Assets/Images/projects/passwordGenerator.png";
 import pokedex from "../../Assets/Images/projects/pokedex.png";
 import weather from "../../Assets/Images/projects/Weather.jpg";
+import cropCompass from "../../Assets/Images/projects/cropcompass.png";
 
 const projects = [
   {
@@ -12,7 +13,7 @@ const projects = [
     tools: ["React", "Tailwind", "NodeJs", "MongoDB"],
     website: "https://cropcompass.netlify.app/",
     github: "https://github.com/subhadip-kundu/CropCompass-farmersOwnEcommerce",
-    img: ToDo,
+    img: cropCompass,
   },
   {
     name: "ToDo Application",
@@ -38,7 +39,8 @@ const projects = [
       "JavaScript password generator creates secure, random passwords with letters, numbers, and characters for robust online authentication.",
     tools: ["React", "JavaScript", "PokéAPI"],
     website: "https://real-time-weather-usign-ajax.netlify.app/",
-    github: "https://github.com/subhadip-kundu/Weather-application-using-api-and-ajax",
+    github:
+      "https://github.com/subhadip-kundu/Weather-application-using-api-and-ajax",
     img: weather,
   },
   {
