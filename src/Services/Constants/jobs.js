@@ -5,9 +5,8 @@ const jobs = [
 		date: [new Date(2024, 6, 26), new Date()],
 		positionEN: "Process Associate",
 		tasksEN: [
-			"Provided customer support via chat, addressing financial risk and other related inquiries.",
 			"Conducted risk investigations to identify and mitigate potential threats.",
-			"Assisted customers in North America, ensuring compliance with company policies and procedures.",
+			"Assisted customers in North America and Germany, ensuring compliance with company policies and procedures.",
 			"Resolved customer issues efficiently to maintain high levels of satisfaction.",
 			"Documented and reported risk findings and resolutions to relevant stakeholders.",
 			"Collaborated with team members to improve risk assessment and support processes.",
