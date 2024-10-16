@@ -73,7 +73,7 @@ function App() {
 		}, time);
 	};
 
-	window.onload = () => showLoader(1000);
+	window.onload = () => showLoader(0);
 
 	return (
 		<>
