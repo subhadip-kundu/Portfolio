@@ -64,7 +64,7 @@ function App() {
 	};
 
 	// Set page loader
-	const [loading, setLoading] = useState(true);
+	const [loading, setLoading] = useState(false);
 
 	const showLoader = (time) => {
 		setLoading(false);
