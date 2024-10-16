@@ -67,13 +67,13 @@ function App() {
 	const [loading, setLoading] = useState(true);
 
 	const showLoader = (time) => {
-		setLoading(true);
+		setLoading(false);
 		setTimeout(() => {
 			setLoading(false);
 		}, time);
 	};
 
-	window.onload = () => showLoader(0);
+	window.onload = () => showLoader(1000);
 
 	return (
 		<>
