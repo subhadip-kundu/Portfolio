@@ -1,12 +1,20 @@
 :root {
     /* Theme */
   
-    --theme-1: #3e236b;
+    /* --theme-1: #3e236b;
     --theme-2: #52436b;
     --theme-3: #7040c2;
     --theme-4: #874deb;
-    --theme-5: #b696ee;
-  
+    /* Theme */
+
+    
+    --theme-1: #36d1dc; /* Aqua Blue */
+    --theme-2: #6a11cb; /* Deep Purple */
+    --theme-3: #ff7e5f; /* Soft Coral */
+    --theme-4: #f7971e; /* Vibrant Orange */
+    --theme-5: #00c6ff; /* Sky Blue */
+
+
     /* Gray scale */
   
     --black: #000;
