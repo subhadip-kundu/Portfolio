@@ -18,7 +18,7 @@ const jobs = [
 	  date: [new Date(2024, 11, 30), new Date()], // December ongoing
 	  positionEN: "Specialist Programmer",
 	  tasksEN: [
-		"Just started with induction program."
+		"Just started with training in Big Data."
 	  ],
 	},
   ];
