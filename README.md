@@ -34,7 +34,7 @@
   - Tailwind CSS: Proficient
   - JavaScript: Proficient
   - React: Proficient
-  - Redux: Beginner
+  - Redux: Intermediate
   - Node.js: Intermediate
   - Express.js: Intermediate
   - MongoDB: Proficient
